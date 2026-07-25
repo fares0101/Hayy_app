@@ -1,384 +1,208 @@
-# <div align="center">
+<div align="center">
 
-# 
+<img src="screenshots/app icon.png" width="170"/>
 
-# <img src="screenshots/app icon.png" width="180"/>
+# HAYY
 
-# 
+### 📍 Every Place Has a Story
 
-# \# HAYY
+Discover nearby places, explore events, receive AI-powered recommendations, and connect with your local community.
 
-# 
+<p>
+<img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+<img src="https://img.shields.io/badge/BLoC-State%20Management-blueviolet?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Clean%20Architecture-✔-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SignalR-Real--Time-success?style=for-the-badge"/>
+</p>
 
-# \### Every Place Has a Story
+</div>
 
-# 
+---
 
-# A modern location-based mobile application that helps users discover nearby places, explore events, receive AI-powered recommendations, and connect with their local community.
+# ✨ Features
 
-# 
+- 🔐 Secure Authentication
+- 🔑 Google Sign-In
+- 🤖 AI Recommendations
+- 📍 Google Maps Integration
+- 🔎 Smart Search
+- 🏪 Discover Nearby Places
+- ⭐ Reviews & Ratings
+- 📝 Business Posts
+- 🎁 Offers & Promotions
+- 🎫 Event Booking
+- 📱 QR Ticket Generation
+- ⚡ Real-Time Updates (SignalR)
+- ❤️ Follow Businesses
+- 👤 User Profile
+- 📚 Booking History
 
-# !\[Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter\&logoColor=white)
+---
 
-# !\[Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart\&logoColor=white)
+# 📱 App Preview
 
-# !\[Platform](https://img.shields.io/badge/Platform-Android-success)
+## Authentication
 
-# !\[Architecture](https://img.shields.io/badge/Architecture-Clean%20Architecture-orange)
+<p align="center">
 
-# !\[State Management](https://img.shields.io/badge/State-BLoC-blueviolet)
+<img src="screenshots/splash.png" width="170"/>
 
-# 
+<img src="screenshots/login.png" width="170"/>
 
-# </div>
+<img src="screenshots/interests.png" width="170"/>
 
-# 
+</p>
 
-# \---
+---
 
-# 
+## Home
 
-# \# 📖 Overview
+<p align="center">
 
-# 
+<img src="screenshots/home.png" width="170"/>
 
-# HAYY is a smart location-based mobile application developed using Flutter.
+<img src="screenshots/profile.png" width="170"/>
 
-# 
+<img src="screenshots/notifications.png" width="170"/>
 
-# The application helps users discover nearby restaurants, cafés, stores, events, and local businesses while providing personalized AI-powered recommendations based on user interests and location.
+</p>
 
-# 
+---
 
-# Users can browse places, follow businesses, view offers, book events, receive QR tickets, and interact with the community through reviews and posts.
+## Discover
 
-# 
+<p align="center">
 
-# \---
+<img src="screenshots/search.png" width="170"/>
 
-# 
+<img src="screenshots/place details.png" width="170"/>
 
-# \# ✨ Features
+<img src="screenshots/place details 2.png" width="170"/>
 
-# 
+</p>
 
-# \- 🔐 Secure Authentication
+---
 
-# \- 🔑 Google Sign-In
+## Community
 
-# \- ❤️ Personalized Interests
+<p align="center">
 
-# \- 🤖 AI Recommendations
+<img src="screenshots/posts.png" width="170"/>
 
-# \- 📍 Google Maps Integration
+<img src="screenshots/following screen.png" width="170"/>
 
-# \- 🔎 Smart Search
+<img src="screenshots/offer details.png" width="170"/>
 
-# \- 🏪 Place Details
+</p>
 
-# \- ⭐ Reviews \& Ratings
+---
 
-# \- 📝 Business Posts
+## Event Booking
 
-# \- 🎁 Offers \& Promotions
+<p align="center">
 
-# \- 🎫 Event Booking
+<img src="screenshots/events.png" width="170"/>
 
-# \- 📱 QR Ticket Generation
+<img src="screenshots/book tickets.png" width="170"/>
 
-# \- ⚡ Real-Time Updates (SignalR)
+<img src="screenshots/my booking.png" width="170"/>
 
-# \- 👤 User Profile
+<img src="screenshots/qr booking.png" width="170"/>
 
-# \- ❤️ Follow Businesses
+</p>
 
-# \- 📚 Booking History
+---
 
-# 
+# 🏛 Architecture
 
-# \---
+```text
+Presentation Layer
+        │
+Business Logic (BLoC)
+        │
+Repository Layer
+        │
+REST API
+        │
+ASP.NET Core Backend
+```
 
-# 
+---
 
-# \# 🏗 Architecture
+# 🛠 Tech Stack
 
-# 
+| Technology | Description |
+|------------|-------------|
+| Flutter | Cross-platform Framework |
+| Dart | Programming Language |
+| flutter_bloc | State Management |
+| Dio | REST API |
+| GetIt | Dependency Injection |
+| Google Maps SDK | Maps Integration |
+| Google Sign-In | Authentication |
+| Flutter Secure Storage | Secure Token Storage |
+| SignalR | Real-Time Communication |
+| ASP.NET Core | Backend |
 
-# The application follows \*\*Clean Architecture\*\* combined with the \*\*BLoC Pattern\*\* to ensure scalability, maintainability, and clean separation of concerns.
+---
 
-# 
+# 🚀 Getting Started
 
-# ```
+### Clone Repository
 
-# Presentation Layer
+```bash
+git clone https://github.com/fares0101/Hayy_App.git
+```
 
-# &#x20;       │
+### Install Dependencies
 
-# Business Logic (BLoC)
+```bash
+flutter pub get
+```
 
-# &#x20;       │
+### Run App
 
-# Repository Layer
+```bash
+flutter run
+```
 
-# &#x20;       │
+---
 
-# Remote Data Sources
+# 📂 Project Structure
 
-# &#x20;       │
+```text
+lib
+│
+├── core
+├── config
+├── shared
+├── features
+│   ├── authentication
+│   ├── home
+│   ├── search
+│   ├── booking
+│   ├── profile
+│   ├── notifications
+│   └── places
+│
+└── main.dart
+```
 
-# REST API
+---
 
-# &#x20;       │
+# 👨‍💻 Developed By
 
-# ASP.NET Core Backend
+**Graduation Project Team**
 
-# ```
+Flutter Developer
 
-# 
+**Fares Rashad**
 
-# \---
+---
 
-# 
+<div align="center">
 
-# \# 🛠 Tech Stack
+⭐ If you like this project, don't forget to leave a star.
 
-# 
-
-# | Category | Technology |
-
-# |-----------|------------|
-
-# | Framework | Flutter |
-
-# | Language | Dart |
-
-# | Architecture | Clean Architecture |
-
-# | State Management | flutter\_bloc |
-
-# | Networking | Dio |
-
-# | Dependency Injection | GetIt |
-
-# | Authentication | Google Sign-In |
-
-# | Maps | Google Maps SDK |
-
-# | Secure Storage | Flutter Secure Storage |
-
-# | Real-Time Communication | SignalR |
-
-# | Backend | ASP.NET Core Web API |
-
-# 
-
-# \---
-
-# 
-
-# \# 📸 Application Screenshots
-
-# 
-
-# \## Authentication
-
-# 
-
-# | Splash | Login | Interests |
-
-# |--------|-------|-----------|
-
-# | <img src="screenshots/splash.png" width="220"> | <img src="screenshots/login.png" width="220"> | <img src="screenshots/interests.png" width="220"> |
-
-# 
-
-# \---
-
-# 
-
-# \## Home
-
-# 
-
-# | Home | Profile | Notifications |
-
-# |------|---------|---------------|
-
-# | <img src="screenshots/home.png" width="220"> | <img src="screenshots/profile.png" width="220"> | <img src="screenshots/notifications.png" width="220"> |
-
-# 
-
-# \---
-
-# 
-
-# \## Discover Places
-
-# 
-
-# | Search | Place Details | Place Details |
-
-# |---------|---------------|---------------|
-
-# | <img src="screenshots/search.png" width="220"> | <img src="screenshots/place details.png" width="220"> | <img src="screenshots/place details 2.png" width="220"> |
-
-# 
-
-# \---
-
-# 
-
-# \## Community
-
-# 
-
-# | Posts | Following | Offer Details |
-
-# |--------|-----------|---------------|
-
-# | <img src="screenshots/posts.png" width="220"> | <img src="screenshots/following screen.png" width="220"> | <img src="screenshots/offer details.png" width="220"> |
-
-# 
-
-# \---
-
-# 
-
-# \## Booking System
-
-# 
-
-# | Events | Book Tickets | My Booking |
-
-# |---------|--------------|------------|
-
-# | <img src="screenshots/events.png" width="220"> | <img src="screenshots/book tickets.png" width="220"> | <img src="screenshots/my booking.png" width="220"> |
-
-# 
-
-# | QR Ticket |
-
-# |-----------|
-
-# | <img src="screenshots/qr booking.png" width="220"> |
-
-# 
-
-# \---
-
-# 
-
-# \# 📂 Project Structure
-
-# 
-
-# ```text
-
-# lib
-
-# │
-
-# ├── core
-
-# ├── config
-
-# ├── shared
-
-# ├── features
-
-# │   ├── authentication
-
-# │   ├── home
-
-# │   ├── search
-
-# │   ├── places
-
-# │   ├── booking
-
-# │   ├── profile
-
-# │   ├── notifications
-
-# │   └── settings
-
-# │
-
-# └── main.dart
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \# 🚀 Getting Started
-
-# 
-
-# \### Clone Repository
-
-# 
-
-# ```bash
-
-# git clone https://github.com/fares0101/Hayy\_App.git
-
-# ```
-
-# 
-
-# \### Install Packages
-
-# 
-
-# ```bash
-
-# flutter pub get
-
-# ```
-
-# 
-
-# \### Run Application
-
-# 
-
-# ```bash
-
-# flutter run
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \# 👨‍💻 Team
-
-# 
-
-# Graduation Project Team
-
-# 
-
-# \*\*Mobile Application\*\*
-
-# \- Fares Rashad — Flutter Developer
-
-# 
-
-# \---
-
-# 
-
-# \# 📄 License
-
-# 
-
-# This project was developed as a Graduation Project for educational purposes.
-
+</div>
